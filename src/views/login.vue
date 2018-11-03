@@ -23,7 +23,6 @@ export default {
             }
         }
     },
-
     methods: {
         async handleLogin() {
             const res = await this.$http.post('/login', this.formdata)
